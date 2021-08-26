@@ -1,0 +1,9 @@
+
+.openModal{
+     opacity:0 ;
+     display:block;
+};
+.closeModal{
+     opacity:1 ;
+     display:block;
+}

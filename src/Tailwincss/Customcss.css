@@ -1,0 +1,18 @@
+
+.hr{
+    color:black
+}
+.content{
+    @apply hover:text-red-500 duration-500 text-sm text-black 
+    /* duration là thời gian chuyển động */
+}
+.hover{
+    /* chuyển động từ button từ màu này sang màu khác này chậm */
+    @apply transition duration-500 ease-in-out bg-green-500 hover:bg-red-600 transform translate-y-1 hover:scale-110 rounded-full shadow-lg
+
+}
+.stop{
+    /* chuyển động từ button từ màu này sang màu khác này nhanh hơn */
+    @apply transition-colors ease-in-out bg-green-500 hover:bg-red-600 transform translate-y-1 hover:scale-110 rounded-full shadow-lg
+
+}
